@@ -26,8 +26,8 @@ configuration of virtual machines on VirtualBox.
 ## **Virtual Machine Fundamentals**
 
 Using VirtualBox there are a few different ways to create a new
-virtual machine. The simplest way is using the "Machine" ->
-"New..." option under the VirtualBox manager window.
+virtual machine. The simplest way is using the **_"Machine" ->
+"New..."_** option under the VirtualBox manager window.
 (See Fig. 1)
 
 --------------------------------------------
