@@ -97,16 +97,16 @@ from in VirtualBox (See Fig. 5):
 Each of these options serves the same purpose but their
 implementation differs slightly.
 
-* VDI uses Oracle's proprietary container format to isolate
+* **VDI** uses Oracle's proprietary container format to isolate
 the volume for the virtual machine. This format is optimized
 for VirtualBox and may be more performant. While more
 performant it is not portable unless going to another
 VirtualBox environment.
 
-* VHD is the Microsoft version of a virtual hard disk and may
-be ported to other Microsoft hypervisor environments.
+* **VHD** is the Microsoft version of a virtual hard disk and
+may be used in other Microsoft hypervisor environments.
 
-* A VMDK is a virtual hard disk based on the open container
+* **VMDK** is a virtual hard disk based on the open container
 format of the same name and is from VMWare. This format is the
 most portable and flexible if moving virtual machines from one
 hypervisor to another.
