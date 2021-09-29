@@ -67,10 +67,17 @@ however, setting this value too high can cause poor performance
 of the host operating system and the other applications and
 services it may run.
 
+For the virtual machine's storage the wizard asks to specify
+a virtual hard disk and its size. The recommended size is 10GB,
+and this can be increased or decreased as needed. (See Fig. 4)
+
+<img src="assets/createVM_Step3.png" width="500" /> [Fig. 4]
+
 ### **Lab Excercise 1**
 
 * Deploy an Ubuntu virtual machine using VirtualBox
 
-* Install an application that listens for requests
+* Experiment with various settings and note observations
 
-* Configure the virtual machine to allow external traffic
+* Configure the virtual machine to allow external traffic using
+port forwarding on the VM's primary network adapter.
