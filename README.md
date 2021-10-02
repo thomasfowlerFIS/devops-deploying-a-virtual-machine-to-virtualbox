@@ -48,8 +48,6 @@ of the guest operating system selected in the previous step.
 
 <img src="assets/createVM_Step1.png" width="500" /> [Fig. 2]
 
---------------------------------------------
-
 There are several different operating systems supported. If an
 operating system does not appear in the list, the type of
 "Other" may be specified.
@@ -61,17 +59,15 @@ operating system does not appear in the list, the type of
 Next, the wizard asks for the amount of memory to allocate
 toward the virtual machine. (See Fig. 3)
 
---------------------------------------------
-
 <img src="assets/createVM_Step2.png" width="500" /> [Fig. 3]
-
---------------------------------------------
 
 This value can be any size that is less than the total amount
 of available system memory on the host operating system. Setting
 this value too high, however, can cause poor performance on the
 host operating system and the other applications and services
 it may run.
+
+--------------------------------------------
 
 ### **Virtual Hard Disk**
 
@@ -121,19 +117,25 @@ hard disk only takes up as much space as needed by its
 contents. Conversely, a fixed virtual hard disk takes up as
 much space as the user specifies.
 
+#### **Dynamic**
+
 While a dynamic VHD takes up less space initially, space is
 not reclaimed if files, etc. are removed from the virtual hard
 disk. Additionally, they are less performant than fixed VHDs
 and may end up taking up as much space.
+
+#### **Fixed**
 
 Fixed drives are static in terms of space and are recommended
 if the VM is to have any amount of longevity on the host
 environment. As stated previously, fixed VHDs outperform dynamic
 VHDs but take up more space initially.
 
+--------------------------------------------
+
 ### **Lab Excercise 1**
 
-* Deploy an Ubuntu virtual machine using VirtualBox
+* Deploy a recent version of an Ubuntu virtual machine using VirtualBox
 
 * Experiment with various settings and note observations
 
