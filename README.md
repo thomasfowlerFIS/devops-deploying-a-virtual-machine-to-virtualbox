@@ -32,7 +32,7 @@ virtual machine. The simplest way is using the **_"Machine" ->
 
 --------------------------------------------
 
-<img src="assets/newVM_Menu.png" height="400" /> [Fig. 1]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-deploying-a-virtual-machine-to-virtualbox/assets/newVM_Menu.png" height="400" /> [Fig. 1]
 
 --------------------------------------------
 
@@ -46,7 +46,7 @@ of the guest operating system selected in the previous step.
 
 --------------------------------------------
 
-<img src="assets/createVM_Step1.png" width="500" /> [Fig. 2]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-deploying-a-virtual-machine-to-virtualbox/assets/createVM_Step1.png" width="500" /> [Fig. 2]
 
 There are several different operating systems supported. If an
 operating system does not appear in the list, the type of
@@ -59,7 +59,7 @@ operating system does not appear in the list, the type of
 Next, the wizard asks for the amount of memory to allocate
 toward the virtual machine. (See Fig. 3)
 
-<img src="assets/createVM_Step2.png" width="500" /> [Fig. 3]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-deploying-a-virtual-machine-to-virtualbox/assets/createVM_Step2.png" width="500" /> [Fig. 3]
 
 This value can be any size that is less than the total amount
 of available system memory on the host operating system. Setting
@@ -75,7 +75,7 @@ For the virtual machine's storage the wizard asks to specify
 a virtual hard disk and its size. The recommended size is 10GB,
 and this can be increased or decreased as needed. (See Fig. 4)
 
-<img src="assets/createVM_Step3.png" width="500" /> [Fig. 4]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-deploying-a-virtual-machine-to-virtualbox/assets/createVM_Step3.png" width="500" /> [Fig. 4]
 
 --------------------------------------------
 
@@ -88,7 +88,7 @@ from in VirtualBox (See Fig. 5):
 * Virtual Hard Disk (VHD)
 * Virtual Machine Disk (VMDK)
 
-<img src="assets/createVM_Step4.png" width="500" /> [Fig. 5]
+<img src="https://raw.githubusercontent.com/thomasfowlerFIS/devops-deploying-a-virtual-machine-to-virtualbox/assets/createVM_Step4.png" width="500" /> [Fig. 5]
 
 Each of these options serves the same purpose but their
 implementation differs slightly.
